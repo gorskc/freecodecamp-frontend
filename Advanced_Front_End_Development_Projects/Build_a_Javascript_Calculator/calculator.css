@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Roboto');
+
+.container {
+  height: 415px;
+  width: 275px;
+  background-color: #000000;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 20px 5px 5px 10px;
+  border-radius: 5px;
+  border-color: #4d4d4d;
+  border-style: outset;
+  border-weight: 10px;
+  position: relative;
+  -moz-box-shadow:    0 0 3px 3px #c9c5c5;
+    -webkit-box-shadow: 0 0 3px 3px #c9c5c5;
+      box-shadow:         2px 0 3px 3px #c9c5c5;
+}
+
+#displayVal {
+  height: 75px;
+  width: 225px;
+  background-color: #e7e7e7;
+  border-style: inset;
+  border-weight: 1px;
+  border-color: #aaaaaa;
+  border-radius: 5px;
+  margin: 15px 15px 20px 15px;
+  padding: 25px 15px 25px 15px;
+  text-align: right;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+}
+
+.buttons {
+  text-align: center;
+  margin: 1px;
+}
+
+.btn {
+  height: 50px;
+  width: 50px;
+  margin: 1px;
+  color: #ffffff;
+  background-color: #39CCCC;
+  border-color: #39CCCC;
+  border-style: outset;
+}
+
+.btn:focus, .btn:target, .btn:active {
+  outline: none;
+}
+
+.btn:hover {
+  background-color: #39FFFF;
+}
+
+.btn#btnAc {
+  color: #ffffff;
+  background-color: #85144b;
+  border-color: #85144b;
+  border-style: outset;
+}
+
+.btn#btnAc:hover {
+  background-color: #F012BE;
+}
+
+.btn#btnEqual {
+  color: #ffffff;
+  background-color: #7b776f;
+  border-color: #7b776f;
+  border-style: outset;
+}
+.btn#btnEqual:hover {
+  background-color: #111111;
+}
+#btnAc, #btnEqual {
+  width: 105px;
+}

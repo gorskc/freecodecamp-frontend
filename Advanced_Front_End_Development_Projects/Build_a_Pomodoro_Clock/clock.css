@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
+
+body {
+  background-color: #001f3f;
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: #39CCCC;
+  font-weight: bold;
+
+}
+
+h1 {
+  text-align: center;
+}
+#progress {
+  position: absolute;
+  width: 100%;
+  height: 0%;
+  background-color: #85144b;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  color: #39CCCC;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+div.timer:active {
+  transform: translateY(4px);
+}
+
+.timer {
+  margin: 0 auto;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  font-size: 1em;
+  border: 2px solid #39CCCC;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  z-index: 20;
+  overflow: hidden;
+}
+
+#timerType {
+  padding: 50px 0 25px 0;
+}
+
+.set-time {
+  display: inline-block;
+  color: #39CCCC;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 20px;
+}
+
+.set {
+  display: inline-block;
+  margin: 0 0 0 475px;
+  font-size: 20px;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+#setSession {
+  margin-left: -20px;
+}
+#setBreak {
+  margin-left: -20px;
+}
+#breakData {
+  margin-right: 50px;
+}
+#breakLength {
+  margin-bottom: -10px;
+  margin-left: -20px;
+}
+#setBreak {
+  margin-top: 0px;
+}
+#sessionLength {
+  margin-bottom: -10px;
+  margin-left: -20px;
+}
+#sessionData {
+  margin-left: 50px;
+}
+
+.btn {
+  border-style: solid;
+  border-width: .5px;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border-color: #39CCCC;
+  background-color: #001f3f;
+  cursor: pointer;
+}
+.btn:active {
+  transform: translateY(2px);
+}
+.btn-left {
+  margin-right: 2px;
+}
+
+.btn-right {
+  margin-left: 2px;
+}

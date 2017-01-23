@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Build a Pomodoro Clock</title>
+  </head>
+  <body>
+    <div class="title">
+      <h1>Pomodoro Clock</h1>
+    </div>
+    <div class="container">
+      <div class="timer" id="timer">
+        <div id="progress">
+          <h1 id="timerType"></h1>
+          <h1 id="displayTime"></h1>
+        </div>
+      </div>
+      <div class="set set-time">
+        <div class="set-time" id="breakData">
+          <h4 id="breakLength">Break Length</h4>
+          <div class="set-time" id="setBreak">
+            <button type="button" class="btn btn-left set-time" id="downBreak">-</button>
+            <h4 class="set-time" id="breakTime" title="BREAK">5</h4>
+            <button type="button" class="btn btn-right set-time" id="upBreak">+</button>
+          </div>
+        </div>
+        <div class="set-time" id="sessionData">
+          <h4 id="sessionLength">Session Length</h4>
+          <div class="set-time" id="setSession"></div>
+            <button type="button" class="btn btn-left set-time" id="downSession">-</button>
+            <h4 class="set-time" id="sessionTime" title="SESSION">25</h4>
+            <button type="button" class="btn btn-right set-time" id="upSession">+</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

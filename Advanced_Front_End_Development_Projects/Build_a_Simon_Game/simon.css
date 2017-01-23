@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Share+Tech+Mono');
+
+#outerCircle {
+  position: relative;
+  border-radius: 50%;
+  height: 500px;
+  width: 500px;
+  background-color: #111111;
+  top: 50%;
+  right: 25%;
+  bottom: 50%;
+  left: 30%;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
+}
+
+.inner-round {
+  background-color: #111111;
+  height: 225px;
+  width: 225px;
+  border-radius: 100%;
+  position: relative;
+  z-index: 1;
+  top: 25%;
+  left: 27%;
+}
+
+.inner-circle {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: absolute;
+  top: 5.5%;
+  left: 5.5%;
+  background-color: #DDDDDD;
+}
+
+#logo {
+  font-size: 45px;
+  margin: 15px 0 0 0;
+}
+
+.control {
+  display: inline-block;
+}
+
+#on, #off {
+  vertical-align: middle;
+}
+
+.on-off {
+  display: inline-block;
+  margin-top: 0;
+}
+
+.on-off-outer {
+  height: 15px;
+  width: 30px;
+  border: 3px solid #111111;
+  background-color: #111111;
+  position: relative;
+}
+
+#toggle {
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  left: 0;
+  background-color: #0074D9;
+  cursor: pointer;
+}
+
+#toggle.game-on {
+  position: absolute;
+  left: 15px;
+}
+
+#startLabel, #strictLabel, #count {
+  margin-top: 0px;
+}
+
+#countScreen {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 20px;
+  margin-bottom: 0px;
+  position: relative;
+  height: 30px;
+  width: 45px;
+  background-color: #330000;
+  color: #2ECC40;
+  display: table-cell;
+  text-align: center;
+  vertical-align: bottom;
+  border-radius: 3px;
+  border: 3px solid #111111;
+}
+
+.control {
+  margin: 5px;
+}
+
+#start, #strict {
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+  position: relative;
+  bottom: 5px;
+}
+
+#start{
+  background-color: #FF4136;
+  border: 3px solid #111111;
+  position: relative;
+}
+
+#start:focus, #strict:focus, .button:focus {
+  outline: none
+}
+
+#strict {
+  background-color: #FFDC00;
+  border: 3px solid #111111;
+  position: relative;
+}
+
+#strictLight {
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  border: 2px solid;
+  background-color: #330000;
+  margin: 7px;
+  position: relative;
+  left: 20%;
+}
+
+#strictLight.strict-on {
+  background-color: #FF0000;
+}
+
+#buttons {
+  position: relative;
+  bottom: 42.5%;
+  left: 2.5%;
+}
+
+.top-buttons, .bottom-buttons {
+  height: 225px;
+  width: 225px;
+  display: inline-block;
+  margin: 5px;
+  border: none;
+}
+
+#topLeft {
+  border-top-left-radius: 100%;
+  background-color: #2ECC40;
+}
+
+#topRight {
+  border-top-right-radius: 100%;
+  background-color: #FF1340;
+}
+
+#bottomLeft {
+  border-bottom-left-radius: 100%;
+  background-color: #FFDC00;
+}
+
+#bottomRight {
+  border-bottom-right-radius: 100%;
+  background-color: #0074D9;
+}
+
+#topLeft:active, #topLeft.active {
+  background-color: #01FF70;
+}
+
+#topRight:active, #topRight.active {
+  background-color: #FF8080;
+}
+
+#bottomLeft:active, #bottomLeft.active {
+  background-color: #FFFF00;
+}
+
+#bottomRight:active, #bottomRight.active {
+  background-color: #7FDBFF;
+}

@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+body {
+  background-color: #e2e2e2;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.container {
+  text-align: center;
+  font-family: 'Slabo 27px', serif;
+  width: 95%;
+  margin: 50px;
+}
+
+.hoverinfo {
+  display: none;
+  color: #000000;
+}
+
+.fa .hoverinfo {
+  cursor: pointer;
+  z-index: 1;
+  position: absolute;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.fa:hover span {
+  background-color: rgba(255, 255, 255, 0.4);
+  display: block;
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: grey;
+}
+
+.searchBox {
+  text-align: center;
+  vertical-align: middle;
+  margin: 50px;
+}
+
+#searchStyle {
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: black;
+  height: 45px;
+  width: 250px;
+}
+
+.search1 {
+  font-size: 40px;
+  color: black;
+  text-align: center;
+}
+
+i.search2 {
+  font-size: 30px;
+}
+
+.search2 {
+  font-size: 20px;
+  height: 45px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-bottom: 40px;
+}
+
+.btn {
+  text-align: center;
+  margin-left: 5px;
+  font-size: 40px;
+}
+
+#searchResult {
+  background-color: white;
+  margin: 0px;
+  border-bottom: 2px solid #e2e2e2;
+  padding: 5px;
+}
+
+#searchResult:hover {
+  border-left-style: solid;
+  border-left-color: black;
+  padding-left: 2px;
+}
+
+.hoverinfo:hover p{
+
+}
+
+#title {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+  color: black;
+}
+
+#description {
+  font-size: 12px;
+  text-align: left;
+  color: black;
+}

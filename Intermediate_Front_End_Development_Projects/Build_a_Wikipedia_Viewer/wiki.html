@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Wikipedia Viewer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous">
+		<script src="https://use.fontawesome.com/830541b1e3.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Wikipedia Viewer</h1>
+      <p>Click on the search icon to search for an article, or click on the shuffle icon to get a random article.</p>
+      <div class="searchArea">
+        <form class="searchBox" role="search">
+          <input type="search" name="wikiSearch" class="search2 form-control" id="searchStyle"><button class="button btn search2" id="searchButton" aria-label="Search" type="submit"><i class="fa fa-search search2"></i></button>
+          <i class="fa fa-search search1" aria-hidden="true"><span class="hoverinfo" id="searchInfo">Click here to search for an article.</span></i>
+
+          <a class="button text-center search1" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><i class="fa fa-random search1" aria-hidden="true"><span class="hoverinfo" id="randomInfo">Click here for a random article.</span></i></a>
+        </form>
+      </div>
+      <div class="results">
+      </div>
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Use the Twitch.tv JSON API</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div>
+      <table class="table">
+        <thead>
+        <tr>
+          <td id="title" colspan="3">Twitchtv JSON API</td>
+        </tr>
+        <tr id="head">
+          <th colspan="1" class="filter" id="showall">All</th>
+          <th colspan="1" class="filter" id="online">Online</th>
+          <th colspan="1" class="filter" id="offline">Offline</th>
+        </tr>
+        </thead>
+        <tr id="search">
+          <form>
+            <td colspan='3'>
+              <input type="text" id="searchStr" name="search" placeholder="Search...">
+            </td>
+          </form>
+        </tr>
+        <tbody id="body">
+        </tbody>
+      </table>
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</html>

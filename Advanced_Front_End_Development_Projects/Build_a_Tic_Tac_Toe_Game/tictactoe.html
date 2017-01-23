@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous">
+  </head>
+  <body>
+  	<div class="board" id="outer">
+      <div id="chooseGame">
+        <h1>Tic Tac Toe</h1>
+        <h3>How would you like to play?</h3>
+        <h4 class="game" id="one">One Player</h4>
+        <h4 class="game" id="two">Two Player</h4>
+      </div>
+      <div id="choosePlayer">
+        <h3>Would you like to be X or O?</h3>
+        <h4 class="choice">X</h4>
+        <h4 class="choice">O</h4>
+      </div>
+      <div id="final">
+        <div id="message">
+          <h3 id="result"></h3>
+          <button id="reset">Play Again</button>
+        </div>
+      </div>
+      <div class="wrapper" id="displayGame">
+        <table>
+          <tr class="row">
+            <td class="left top" id="00"></td>
+            <td class="top" id="01"></td>
+            <td class="right top" id="02"></td>
+          </tr>
+          <tr class="row">
+            <td class="left" id="10"></td>
+            <td id="11"></td>
+            <td class="right" id="12"></td>
+          </tr>
+          <tr class="row">
+            <td class="left bottom" id="20"></td>
+            <td class="bottom" id="21"></td>
+            <td class="right bottom" id="22"></td>
+          </tr>
+        </table>
+      </div>
+  	</div>	
+  </body>
+</html>

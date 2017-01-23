@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Shadows+Into+Light');
+
+body {
+  background-color: #ffffff;
+  font-family: 'Permanent Marker', cursive;
+}
+
+h1 {
+  position: relative;
+  top: 5%;
+  text-decoration: underline;
+}
+
+.board {
+  margin: 50px 0 50px 400px;
+  height: 500px;
+  width: 500px;
+  background-color: #AAAAAA;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.wrapper {
+  height: 450px;
+  width: 450px;
+  position: absolute;
+  top: 37%;
+  left: 34%;
+}
+
+table {
+  border: none;
+  height: 100%;
+  width: 100%;
+}
+
+td.right {
+  border-right-style: none;
+}
+
+td.left {
+  border-left-style: none;
+}
+
+td.top {
+  border-top-style: none;
+}
+
+td.bottom {
+  border-bottom-style: none;
+}
+
+td {
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  font-size: 40px;
+  border-collapse: collapse;
+  border: 2px solid #DDDDDD;
+  text-transform: uppercase;
+  color: #39CCCC;
+}
+
+h3 {
+  margin: 25px;
+  font-size: 30px;
+}
+
+h4 {
+  display: inline;
+  margin: 25px;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+h4:hover {
+  text-decoration: underline;
+}
+
+#chooseGame {
+  visibility: visible;
+  padding-top: 100px;
+}
+
+#choosePlayer, .wrapper {
+  visibility: hidden;
+}
+
+#choosePlayer {
+  margin-top: -100px;
+}
+
+#final {
+  margin: auto;
+  width: 960px;
+}
+
+#message{
+  margin: -100px 0 0 155px;
+  position: absolute;
+  visibility: hidden;
+  z-index: 100;
+  vertical-align: top;
+  text-align: center;
+}
+
+#result {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#reset {
+  background-color: #39CCCC;
+  border-color: #39CCCC;
+  font-size: 25px;
+}

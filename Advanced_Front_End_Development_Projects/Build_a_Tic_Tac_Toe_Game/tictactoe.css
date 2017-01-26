@@ -12,6 +12,7 @@ h1 {
 }
 
 .board {
+  position: relative;
   margin: 50px 0 50px 400px;
   height: 500px;
   width: 500px;
@@ -24,11 +25,12 @@ h1 {
   height: 450px;
   width: 450px;
   position: absolute;
-  top: 37%;
-  left: 34%;
 }
 
 table {
+  position: absolute;
+  top: -250px;
+  left: 20px;
   border: none;
   height: 100%;
   width: 100%;

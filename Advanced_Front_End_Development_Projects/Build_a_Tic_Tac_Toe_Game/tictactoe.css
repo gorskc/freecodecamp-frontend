@@ -4,32 +4,30 @@ body {
   background-color: #ffffff;
   font-family: 'Permanent Marker', cursive;
 }
-
-h1 {
-  position: relative;
-  top: 5%;
-  text-decoration: underline;
+#title {
+  text-align: center;
+  margin: 50px 0 0 0;
 }
 
 .board {
   position: relative;
-  margin: 50px 0 50px 400px;
-  height: 500px;
-  width: 500px;
+  margin: 20px 0 20px 425px;
+  height: 400px;
+  width: 400px;
   background-color: #AAAAAA;
   text-align: center;
   vertical-align: middle;
 }
 
 .wrapper {
-  height: 450px;
-  width: 450px;
+  height: 350px;
+  width: 350px;
   position: absolute;
 }
 
 table {
   position: absolute;
-  top: -250px;
+  top: -225px;
   left: 20px;
   border: none;
   height: 100%;
@@ -53,8 +51,8 @@ td.bottom {
 }
 
 td {
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
   text-align: center;
   font-size: 40px;
   border-collapse: collapse;

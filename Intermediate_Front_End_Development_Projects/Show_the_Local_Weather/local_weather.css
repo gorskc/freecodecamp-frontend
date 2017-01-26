@@ -2,10 +2,17 @@
 
 body {
   background-color: #39CCCC;
+  font-family: 'Open Sans', sans-serif;
+  color: #FFFFFF;
+}
+
+#load {
+  text-align: center;
+  position: relative;
+  top: 100px;
 }
 
 .data {
-  font-family: 'Open Sans', sans-serif;
   text-align: center;
 }
 
@@ -16,10 +23,9 @@ body {
 
 .textbox {
   border-radius: 10px;
-  width: 60%;
-  margin: 50px 0 0 250px;
+  width: 45%;
+  margin: 50px 0 0 350px;
   padding-top: 25px;
-  background-color: rgba(242, 242, 242, 0.7);
 }
 
 .top {
@@ -28,7 +34,7 @@ body {
 }
 
 #date {
-  text-align: left;
+  text-align: center;
   font-weight: bold;
   font-size: 16px;
   padding-left: 10px;
@@ -75,5 +81,4 @@ h3#temp:hover, p#speed:hover {
 .table {
   font-size: 18px;
   border-radius: 5px;
-  background-color: rgba(242, 242, 242, 0.4);
 }
